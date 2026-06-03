@@ -1,0 +1,5 @@
+# EduGrade - Gestão de Notas Escolares
+# Este projeto utiliza exclusivamente bibliotecas da biblioteca padrão do Python.
+# Nenhuma dependência externa é necessária.
+#
+# Python >= 3.10

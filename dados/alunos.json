@@ -1,0 +1,20 @@
+{
+  "alunos": [
+    {
+      "matricula": "1",
+      "nome": "12",
+      "disciplinas": [
+        {
+          "nome": "kk",
+          "notas": [
+            10.0,
+            10.0,
+            10.0
+          ],
+          "aulas_total": 0,
+          "aulas_assistidas": 0
+        }
+      ]
+    }
+  ]
+}
