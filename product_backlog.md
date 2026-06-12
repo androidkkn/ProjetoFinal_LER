@@ -205,15 +205,27 @@
 
 ---
 
+## Épico 9 — Apresentação do Projeto
+
+> **Objetivo:** Criar material visual e roteiro para apresentar o sistema.
+>
+> **Arquivos envolvidos:** `N/A`
+
+| ID     | User Story                                                                                                                               | Prioridade   | Pontos | Status        |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|---------------|
+| US-47  | Como membro da equipe, quero **criar uma apresentação de slides** para demonstrar o projeto aos avaliadores.                              | 🔴 Must      | 10     | 📋 A Fazer    |
+
+---
+
 ## Resumo do Product Backlog
 
 | Prioridade     | Total | Concluídas | A Fazer | Futuro |
 |----------------|-------|------------|---------|--------|
-| 🔴 Must        | 19    | 19         | 0       | 0      |
+| 🔴 Must        | 20    | 19         | 1       | 0      |
 | 🟠 Should      | 9     | 9          | 0       | 0      |
 | 🟡 Could       | 0     | 0          | 0       | 0      |
 | ⚪ Won't       | 11    | 0          | 0       | 11     |
-| **Total**      | **39**| **28**     | **0**   | **11** |
+| **Total**      | **40**| **28**     | **1**   | **11** |
 
 ---
 
@@ -229,9 +241,10 @@
 | `services/persistencia.py`     | US-34, US-35, US-36                                   |
 | `utils/validadores.py`         | US-01, US-02, US-13, US-18                            |
 | `dados/alunos.json`            | US-34, US-35, US-36                                   |
+| `N/A` (Apresentação)           | US-47                                                 |
 
 ---
 
 > **Velocity média:** ~20 pontos por sprint (sprints de 2 semanas)  
 > **Total de pontos entregues (v2.5):** 72 pontos  
-> **Total de pontos restantes no backlog:** 56 pontos
+> **Total de pontos restantes no backlog:** 66 pontos

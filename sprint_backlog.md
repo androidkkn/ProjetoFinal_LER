@@ -204,6 +204,27 @@ Para que uma tarefa seja considerada **Concluída**, ela deve atender a todos os
 
 ---
 
+## Sprint 6 — Apresentação do Projeto (Planejada)
+
+**Período:** 11/07/2026 a 24/07/2026  
+**Objetivo:** Elaborar a apresentação de slides e o roteiro para o projeto final.  
+**Status:** 📋 Planejada  
+**Pontos planejados:** 10  
+
+| ID     | Tarefa / User Story                                                     | Responsável | Pontos | Status        |
+|--------|-------------------------------------------------------------------------|-------------|--------|---------------|
+| US-47  | Criar apresentação de slides para o projeto final                       | Ambos       | 10     | 📋 A Fazer    |
+
+### Tarefas Técnicas — Sprint 6
+
+| ID      | Tarefa Técnica                                               | Pontos | Status        |
+|---------|--------------------------------------------------------------|--------|---------------|
+| TK-12   | Elaborar roteiro e estrutura da apresentação                 | 3      | 📋 A Fazer    |
+| TK-13   | Criar o design e slides da apresentação                      | 5      | 📋 A Fazer    |
+| TK-14   | Ensaiar a apresentação e alinhar tempo                       | 2      | 📋 A Fazer    |
+
+---
+
 ## Burndown — Visão Geral
 
 ```
@@ -220,9 +241,9 @@ Pontos │
        │ ██   ██   ██          ▓▓          ▓▓
    5   │ ██   ██   ██          ▓▓          ▓▓
        │ ██   ██   ██          ▓▓          ▓▓
-   0   └────────────────────────────────────────
-        S1    S2    S3         S4          S5
-                             (plan.)     (plan.)
+   0   └───────────────────────────────────────────────────
+        S1    S2    S3         S4          S5          S6
+                             (plan.)     (plan.)     (plan.)
 
 ██ = Pontos entregues     ▓▓ = Pontos planejados
 ```
@@ -234,6 +255,7 @@ Pontos │
 | Sprint 3 | 29/05 – 12/06         | 22         | 22        | 100%       |
 | Sprint 4 | 13/06 – 26/06         | 22         | —         | *(planejada)* |
 | Sprint 5 | 27/06 – 10/07         | 21         | —         | *(planejada)* |
+| Sprint 6 | 11/07 – 24/07         | 10         | —         | *(planejada)* |
 
 ---
 
