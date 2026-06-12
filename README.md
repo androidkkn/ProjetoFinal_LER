@@ -3,7 +3,7 @@
 > Documentação de Requisitos e Arquitetura do Projeto
 > Data de Criação: 2026-05-29
 > Autores: Kauan Andrade, Luis Otavio
-> Versão: 2.4
+> Versão: 2.5
 
 ---
 
@@ -265,9 +265,11 @@ O sistema está organizado de acordo com a seguinte árvore de diretórios:
 ```text
 ProjetoFinal_LER/
 │
-├── main.py                  # Ponto de entrada principal do programa (Entrypoint CLI)
-├── antiGTest.py             # Arquivo com a classe principal do sistema (EduGrade)
-├── documentacao.md          # Este arquivo de documentação de requisitos e especificações
+├── ProjetoFinal.py          # Arquivo com a classe principal do sistema (EduGrade)
+├── prototip.py              # Protótipo simplificado sem dependências (Entrypoint simples)
+├── README.md                # Este arquivo de documentação de requisitos e especificações
+├── product_backlog.md       # Arquivo de backlog do produto
+├── sprint_backlog.md        # Arquivo de backlog das sprints
 ├── requirements.txt         # Arquivo contendo dependências do Python (caso aplicável)
 │
 ├── dados/
@@ -304,7 +306,9 @@ ProjetoFinal_LER/
    ```
 2. Execute o programa principal:
    ```bash
-   python main.py
+   python ProjetoFinal.py
+   # Ou para o protótipo simplificado:
+   # python prototip.py
    ```
 3. Utilize os números do teclado de **0** a **9** para interagir com o menu do console. Todos os dados digitados serão gravados automaticamente em `dados/alunos.json` ao sair.
 
@@ -315,10 +319,10 @@ ProjetoFinal_LER/
 | Versão | Data | Autores | Alterações |
 |---|---|---|---|
 | 1.0 | 2026-05-29 | Kauan, Luis | Versão inicial com RN, RF e RNF. |
-| 1.1 | 2026-06-03 | Kauan, Luis | Adição de User Stories, critérios de aceite, RFs completos, protótipo CLI e backlog. |
-| 1.2 | 2026-06-03 | Kauan, Luis | Projeto finalizado e pronto para uso, porém pendente de testes formais de homologação. |
-| 2.0 | 2026-06-03 | Kauan, Luis | Inicio do projeto e criação de bibliotecas locais com o uso do Antigravity. |
-| 2.1 | 2026-06-03 | Kauan, Luis | Bibliotecas prontas e inicio do projeto principal. |
+| 1.1 | 2026-06-03 | Luis | Adição de User Stories, critérios de aceite, RFs completos, protótipo CLI e backlog. |
+| 1.2 | 2026-06-03 | Kauan, Luis, Antigravity | Criação do protótipo simplificado zero-dependências prototip.py e atualização/correção geral da documentação e backlogs. |
+| 2.0 | 2026-06-03 | Kauan | Inicio do projeto e criação de bibliotecas locais com o uso do Antigravity. |
+| 2.1 | 2026-06-03 | Kauan | Bibliotecas prontas e inicio do projeto principal. |
 | 2.2 | 2026-06-03 | Kauan, Luis | Projeto finalizado e pronto para uso, porém pendente de testes de usuario. |
-| 2.3 | 2026-06-03 | Antigravity, Kauan, Luis | Preenchimento de Review e Retrospectiva, documentação da estrutura física de diretórios e inclusão do manual de execução. |
-| 2.4 | 2026-06-03 | Antigravity, Kauan, Luis | Criação do arquivo principal simplificado main.py (entrypoint) e atualização da documentação. |
+| 2.3 | 2026-06-03 | Gemini, Kauan, Luis | Preenchimento de Review e Retrospectiva, documentação da estrutura física de diretórios e inclusão do manual de execução. |
+| 3.0 | 2026-06-03 | Kauan | Criação dos backlog's(product e sprint) |
