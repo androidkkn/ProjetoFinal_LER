@@ -1,6 +1,7 @@
+#                                                                                                            LINK PROTOTIPO     https://stitch.withgoogle.com/projects/2927077721864205935
 # prototip.py
 # Protótipo do sistema EduGrade
-    
+
 alunos = []
 
 def cadastrar_aluno(matricula, nome):
@@ -86,7 +87,7 @@ def exibir_boletins():
 def menu():
     """Loop principal de interação via terminal."""
     while True:
-        print("\n--- 🎓 EduGrade (Protótipo Simplificado) ---")
+        print("\n--- 🎓 EduGrade (Protótipo ) ---")
         print("1. Cadastrar Aluno")
         print("2. Registrar Notas")
         print("3. Registrar Frequência")
